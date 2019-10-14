@@ -1,1 +1,2 @@
-echo Hello AkbayanYerishova!
+echo Hello Akbayanyerish!
+
