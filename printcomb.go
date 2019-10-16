@@ -1,6 +1,6 @@
-package main
+package piscine
 import "github.com/01-edu/z01"
-func main(){
+
 func PrintComb(){
 	for i:='0'; i<='9'; i++ {
 
@@ -11,6 +11,7 @@ z01.PrintRune(i)
 z01.PrintRune(j)
 z01.PrintRune(k)
 z01.PrintRune(44)
+z01.PrintRune(rune(''))
 			}
 
 		} 
