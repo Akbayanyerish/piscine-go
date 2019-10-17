@@ -4,9 +4,9 @@ func StrLen(str string) int {
 
 	k := 0
 	for index := range str {
-		k = index
-		index = index + 1
 
+		index = index + 1
+		k = index
 	}
 	return k
 }
