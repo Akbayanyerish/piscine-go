@@ -1,11 +1,11 @@
-package main
+package piscine
 import "fmt"
 func PointOne(n *int){
 *n=1
 }  
 
-func main() {
+func Piscine() {
     n := 0
-  PointOne(&n)
+  piscine.PointOne(&n)
     fmt.Println(n)
 }
