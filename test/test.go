@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	str := "Heloo Potato!"
+	str := "Háloo Potato!"
 	nb := StrLen(str)
 	fmt.Println(nb)
 
@@ -13,7 +13,8 @@ func main() {
 func StrLen(str string) int {
 	
 	k := 0;
-	for index := range str {
+	runchik := []rune(str)
+	for index := range runchik {
 
 		index = index + 1
 		k = index

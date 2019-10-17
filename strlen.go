@@ -2,11 +2,11 @@ package piscine
 
 func StrLen(str string) int {
 
-	k := 1
-	for index := range str {
-		k = index
+	k := 0
+	runchik := []rune(str)
+	for index := range rune {
 		index = index + 1
-
+		k := index
 	}
 	return k
 }
