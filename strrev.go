@@ -1,7 +1,5 @@
 package piscine
 
-import "github.com/01-edu/z01"
-
 func StrRev(s string) string {
 	j := 0
 	var strrune = []rune(s)
