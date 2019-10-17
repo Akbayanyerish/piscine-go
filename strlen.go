@@ -2,7 +2,7 @@ package piscine
 
 func StrLen(str string) int {
 
-	k := 0
+	k := 1
 	for index := range str {
 
 		index = index + 1
