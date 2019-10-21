@@ -7,7 +7,7 @@ func RecursivePower(nb int, power int) int {
 	} else if power == 0 {
 		result = 1
 	} else {
-		result = nb * RecursivePower(nb-1, power)
+		result = nb * RecursivePower(nb, power-1)
 	}
 	return result
 }
