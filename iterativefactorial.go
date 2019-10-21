@@ -10,12 +10,3 @@ func IterativeFactorial(nb int) int {
 	} 
 fmt.Println(result)
 }
-
-
-
-
-
-
-
-
-} 
