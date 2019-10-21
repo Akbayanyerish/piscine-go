@@ -10,3 +10,4 @@ func StrLen(str string) int {
 	}
 	return k
 }
+
