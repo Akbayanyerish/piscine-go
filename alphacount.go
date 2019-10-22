@@ -3,8 +3,8 @@ package piscine
 import "fmt"
 
 	func AlphaCount(str string) int {
-		k:=0
-		for _, letter := range str{
+		k := 0
+		for letter := range str{
 		if (letter >= 'a' && letter <= 'z') || (letter>= 'A' && letter <= 'Z'){
 		k++
 	}
@@ -12,3 +12,4 @@ import "fmt"
 	}
 }
 
+ 
