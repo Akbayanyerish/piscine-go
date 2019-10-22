@@ -8,7 +8,7 @@ func AlphaCount(str string) int {
 			k++
 		}
 	}
-return k
+	return k
 }
 
  
