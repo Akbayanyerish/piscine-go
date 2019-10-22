@@ -1,6 +1,5 @@
 package piscine
 
-import "fmt"
 func AlphaCount(str string) int {
 	k := 0
 	for letter := range str {
