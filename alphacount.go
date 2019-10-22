@@ -10,5 +10,3 @@ func AlphaCount(str string) int {
 	}
 	return k
 }
-
- 
